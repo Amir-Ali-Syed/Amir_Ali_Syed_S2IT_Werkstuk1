@@ -126,6 +126,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="gW7-1X-Z5x">
+                                <rect key="frame" x="0.0" y="474" width="375" height="193"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="gsK-jR-Smp"/>
@@ -134,6 +138,7 @@
                         <outlet property="adres" destination="wdF-1D-NB9" id="kjq-WY-e00"/>
                         <outlet property="gsm" destination="a9K-bo-BJa" id="Lty-cM-JFA"/>
                         <outlet property="img" destination="Leb-kg-YzQ" id="cJb-aU-aZr"/>
+                        <outlet property="kaart" destination="gW7-1X-Z5x" id="pLb-AH-Xgg"/>
                         <outlet property="naam" destination="nfy-Hz-2cj" id="NY4-C5-MCv"/>
                         <outlet property="voornaam" destination="Vz4-GN-jNZ" id="KVK-Bf-4sU"/>
                     </connections>
