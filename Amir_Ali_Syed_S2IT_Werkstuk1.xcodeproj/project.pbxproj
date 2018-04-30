@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		291CCDF420974C3C00BCC85D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291CCDF320974C3C00BCC85D /* AppDelegate.swift */; };
-		291CCDF620974C3C00BCC85D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291CCDF520974C3C00BCC85D /* ViewController.swift */; };
 		291CCDF920974C3C00BCC85D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 291CCDF720974C3C00BCC85D /* Main.storyboard */; };
 		291CCDFB20974C3C00BCC85D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 291CCDFA20974C3C00BCC85D /* Assets.xcassets */; };
 		291CCDFE20974C3C00BCC85D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 291CCDFC20974C3C00BCC85D /* LaunchScreen.storyboard */; };
 		291CCE0920974C3D00BCC85D /* Amir_Ali_Syed_S2IT_Werkstuk1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291CCE0820974C3D00BCC85D /* Amir_Ali_Syed_S2IT_Werkstuk1Tests.swift */; };
 		291CCE1420974C3D00BCC85D /* Amir_Ali_Syed_S2IT_Werkstuk1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291CCE1320974C3D00BCC85D /* Amir_Ali_Syed_S2IT_Werkstuk1UITests.swift */; };
 		291CCE222097503200BCC85D /* Persoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291CCE212097503200BCC85D /* Persoon.swift */; };
+		291CCE24209755DB00BCC85D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291CCE23209755DB00BCC85D /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		291CCDF020974C3C00BCC85D /* Amir_Ali_Syed_S2IT_Werkstuk1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amir_Ali_Syed_S2IT_Werkstuk1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		291CCDF320974C3C00BCC85D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		291CCDF520974C3C00BCC85D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		291CCDF820974C3C00BCC85D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		291CCDFA20974C3C00BCC85D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		291CCDFD20974C3C00BCC85D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		291CCE1320974C3D00BCC85D /* Amir_Ali_Syed_S2IT_Werkstuk1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amir_Ali_Syed_S2IT_Werkstuk1UITests.swift; sourceTree = "<group>"; };
 		291CCE1520974C3D00BCC85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		291CCE212097503200BCC85D /* Persoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persoon.swift; sourceTree = "<group>"; };
+		291CCE23209755DB00BCC85D /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,6 @@
 		291CCDE720974C3C00BCC85D = {
 			isa = PBXGroup;
 			children = (
-				291CCE212097503200BCC85D /* Persoon.swift */,
 				291CCDF220974C3C00BCC85D /* Amir_Ali_Syed_S2IT_Werkstuk1 */,
 				291CCE0720974C3D00BCC85D /* Amir_Ali_Syed_S2IT_Werkstuk1Tests */,
 				291CCE1220974C3D00BCC85D /* Amir_Ali_Syed_S2IT_Werkstuk1UITests */,
@@ -100,12 +99,13 @@
 		291CCDF220974C3C00BCC85D /* Amir_Ali_Syed_S2IT_Werkstuk1 */ = {
 			isa = PBXGroup;
 			children = (
+				291CCE212097503200BCC85D /* Persoon.swift */,
 				291CCDF320974C3C00BCC85D /* AppDelegate.swift */,
-				291CCDF520974C3C00BCC85D /* ViewController.swift */,
 				291CCDF720974C3C00BCC85D /* Main.storyboard */,
 				291CCDFA20974C3C00BCC85D /* Assets.xcassets */,
 				291CCDFC20974C3C00BCC85D /* LaunchScreen.storyboard */,
 				291CCDFF20974C3C00BCC85D /* Info.plist */,
+				291CCE23209755DB00BCC85D /* TableViewController.swift */,
 			);
 			path = Amir_Ali_Syed_S2IT_Werkstuk1;
 			sourceTree = "<group>";
@@ -262,9 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				291CCDF620974C3C00BCC85D /* ViewController.swift in Sources */,
 				291CCDF420974C3C00BCC85D /* AppDelegate.swift in Sources */,
 				291CCE222097503200BCC85D /* Persoon.swift in Sources */,
+				291CCE24209755DB00BCC85D /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

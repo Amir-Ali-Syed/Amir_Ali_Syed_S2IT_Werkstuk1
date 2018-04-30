@@ -29,7 +29,6 @@ class Persoon {
         self.img = img
         self.gsm = gsm
         self.adres = adres
-        
     }
     
 }
