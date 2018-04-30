@@ -14,6 +14,7 @@
 		291CCDFE20974C3C00BCC85D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 291CCDFC20974C3C00BCC85D /* LaunchScreen.storyboard */; };
 		291CCE0920974C3D00BCC85D /* Amir_Ali_Syed_S2IT_Werkstuk1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291CCE0820974C3D00BCC85D /* Amir_Ali_Syed_S2IT_Werkstuk1Tests.swift */; };
 		291CCE1420974C3D00BCC85D /* Amir_Ali_Syed_S2IT_Werkstuk1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291CCE1320974C3D00BCC85D /* Amir_Ali_Syed_S2IT_Werkstuk1UITests.swift */; };
+		291CCE222097503200BCC85D /* Persoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291CCE212097503200BCC85D /* Persoon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		291CCE0F20974C3D00BCC85D /* Amir_Ali_Syed_S2IT_Werkstuk1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Amir_Ali_Syed_S2IT_Werkstuk1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		291CCE1320974C3D00BCC85D /* Amir_Ali_Syed_S2IT_Werkstuk1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amir_Ali_Syed_S2IT_Werkstuk1UITests.swift; sourceTree = "<group>"; };
 		291CCE1520974C3D00BCC85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		291CCE212097503200BCC85D /* Persoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persoon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		291CCDE720974C3C00BCC85D = {
 			isa = PBXGroup;
 			children = (
+				291CCE212097503200BCC85D /* Persoon.swift */,
 				291CCDF220974C3C00BCC85D /* Amir_Ali_Syed_S2IT_Werkstuk1 */,
 				291CCE0720974C3D00BCC85D /* Amir_Ali_Syed_S2IT_Werkstuk1Tests */,
 				291CCE1220974C3D00BCC85D /* Amir_Ali_Syed_S2IT_Werkstuk1UITests */,
@@ -261,6 +264,7 @@
 			files = (
 				291CCDF620974C3C00BCC85D /* ViewController.swift in Sources */,
 				291CCDF420974C3C00BCC85D /* AppDelegate.swift in Sources */,
+				291CCE222097503200BCC85D /* Persoon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
