@@ -18,13 +18,13 @@ class TableViewController: UITableViewController {
         let persoon1 = Persoon(naam: "Tony", voornaam: "Stark", img: "tonystark", gsm: "9883990247", adres: "Malibu Point 10880", coordinaat1:50.863131 , coordinaat2:4.330533)
         personen.append(persoon1)
         
-        let persoon2 = Persoon(naam: "Steve", voornaam: "Rogers", img: "steverogers", gsm: "9857440253", adres: "569 Leaman Place", coordinaat1:50.842345 , coordinaat2:4.384009)
+        let persoon2 = Persoon(naam: "Steve", voornaam: "Rogers", img: "steverogers", gsm: "9857440253", adres: "569 Leaman Place", coordinaat1:50.242345 , coordinaat2:4.684009)
         personen.append(persoon2)
         
-        let persoon3 = Persoon(naam: "Black", voornaam: "Panther", img: "blackpanther", gsm: "095674720", adres: "Wakanda street 21", coordinaat1:50.819605 , coordinaat2: 4.370981)
+        let persoon3 = Persoon(naam: "Black", voornaam: "Panther", img: "blackpanther", gsm: "095674720", adres: "Wakanda street 21", coordinaat1:50.519605 , coordinaat2: 4.370981)
         personen.append(persoon3)
         
-        let persoon4 = Persoon(naam: "Peter", voornaam: "Quil", img: "peterquil", gsm: "0483440747", adres: "Lorrainstraat 73", coordinaat1:50.832631 , coordinaat2: 4.302274)
+        let persoon4 = Persoon(naam: "Peter", voornaam: "Quil", img: "peterquil", gsm: "0483440747", adres: "Lorrainstraat 73", coordinaat1:50.932631 , coordinaat2: 4.802274)
         personen.append(persoon4)
         
     }
